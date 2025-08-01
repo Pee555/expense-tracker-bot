@@ -1,19 +1,18 @@
 {
   "name": "expense-tracker-bot",
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "echo 'No build step required'",
-    "deploy": "vercel --prod"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "@line/bot-sdk": "^8.0.0",
     "@supabase/supabase-js": "^2.38.0",
+    "axios": "^1.6.0",
+    "next": "^15.4.5",
     "openai": "^4.20.0",
-    "axios": "^1.6.0"
-  },
-  "engines": {
-    "node": "18.x"
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   }
 }
